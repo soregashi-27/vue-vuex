@@ -1,9 +1,16 @@
 <template>
-  <div id="app">Todos</div>
+  <div>
+    <h3>Todos</h3>
+  </div>
 </template>
 
 <script>
-export default {};
+import { mapGetters } from 'vuex';
+
+export default {
+  name: 'Todos',
+  computed: mapGetters(['allTodos']),
+};
 </script>
 
 <style>
