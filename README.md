@@ -1,5 +1,29 @@
 # vue-vuex
 
+vue2 add
+```
+vue create vue-vuex
+```
+
+add yarn
+```
+yarn
+```
+
+vue version check
+```
+npm list vue
+```
+
+vue command line version check
+```
+vue -V
+@vue/cli 4.5.13
+```
+The same as `vue --version`.
+Any patterns ok.
+
+
 ## Project setup
 ```
 npm install
