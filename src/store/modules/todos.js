@@ -1,5 +1,5 @@
 //Send to request for back-end
-import axios from 'axios';
+// import axios from 'axios';
 
 const state = {
   todos: [
@@ -14,7 +14,9 @@ const state = {
   ],
 };
 
-const getters = {};
+const getters = {
+  allTodos: (state) => state.todos,
+};
 
 const actions = {};
 
