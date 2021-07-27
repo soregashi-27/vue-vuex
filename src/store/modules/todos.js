@@ -43,7 +43,7 @@ const actions = {
     );
 
     commit('setTodos', response.data);
-    console.log(limit);
+    // console.log(limit);
   },
 };
 
