@@ -33,6 +33,9 @@ const actions = {
 
     commit('removeTodo', id);
   },
+  async filterTodos(e) {
+    console.log(e);
+  },
 };
 
 const mutations = {
