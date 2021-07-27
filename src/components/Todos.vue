@@ -40,4 +40,12 @@ export default {
   position: relative;
   cursor: pointer;
 }
+
+i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #fff;
+  cursor: pointer;
+}
 </style>
