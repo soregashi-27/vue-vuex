@@ -45,6 +45,13 @@ const actions = {
     commit('setTodos', response.data);
     // console.log(limit);
   },
+  async updateTodo({ commit }, updTodo) {
+    const response = await axios.put(
+      `https://jsonplaceholder.typicode.com/todos/${updTodo}`
+    );
+
+    commit('updTodo'); //start
+  },
 };
 
 const mutations = {
